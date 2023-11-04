@@ -1,0 +1,63 @@
+h1 {
+    color: blue;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+section {
+    margin-bottom: 50px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: auto;
+}
